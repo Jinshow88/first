@@ -19,4 +19,8 @@ public class Users {
     private String name;
     private Integer age;
     private String introduce;
+    public void setIntroduce(String introduce2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setIntroduce'");
+    }
 }

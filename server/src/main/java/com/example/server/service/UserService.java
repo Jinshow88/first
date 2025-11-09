@@ -18,4 +18,14 @@ public class UserService {
 
         return userRepository.findAll();
     }
+
+    public Users userDetail(Integer id) {
+        return userRepository.findById(id).get();
+    }
+    public void createUser(Users user) {
+        userRepository.save(user);
+    }
+    public void userDelete(Integer id) {
+        userRepository.deleteById(id);
+    }
 }
